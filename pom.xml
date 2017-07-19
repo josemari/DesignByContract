@@ -180,6 +180,7 @@
                         <configuration>
                             <tasks>
                                 <copy file="./src/main/resources/dbc.bat" tofile="${project.build.directory}/assembly/dbc.bat" />
+                                <copy file="./src/main/resources/dbc.sh" tofile="${project.build.directory}/assembly/dbc.sh" />
                                 <copy file="${project.build.directory}/${project.artifactId}-${project.version}.jar" tofile="${project.build.directory}/assembly/${project.artifactId}-${project.version}.jar" />
                                 <copy file="${project.build.directory}/${project.artifactId}-${project.version}-javadoc.jar" tofile="${project.build.directory}/assembly/${project.artifactId}-${project.version}-javadoc.jar" />
                             </tasks>
